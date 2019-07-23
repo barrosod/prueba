@@ -1,8 +1,8 @@
-version: '2'
+version: '0'
 services:
   app:
-    container_name: filestash
-    image: machines/filestash
+    container_name: bsb
+    image: barrosod/bsb
     restart: always
     environment:
     - APPLICATION_URL=
